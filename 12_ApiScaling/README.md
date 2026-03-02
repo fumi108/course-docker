@@ -48,7 +48,7 @@ aws ec2 create-route  \
 ```
 aws ec2 create-subnet --vpc-id <my-vpcのID> \
   --cidr-block 10.0.2.0/24 \
-  --availability-zone ap-northeast-1c \
+  --availability-zone ap-northeast-1a \
   --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=alb-subnet-01}]'
 ```
 
